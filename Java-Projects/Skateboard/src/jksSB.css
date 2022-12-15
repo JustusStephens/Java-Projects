@@ -1,0 +1,46 @@
+.root
+{
+	-fx-font-family: roman;
+	-fx-font-weight: bold;
+	-fx-font-size: 10pt;
+	-fx-background-image: url("https://i.ytimg.com/vi/4f0dgbaWpic/maxresdefault.jpg"), url("https://2.bp.blogspot.com/-nhIygluLg94/UsW_QULxs-I/AAAAAAAAIVo/g0sCQaWBSfc/s1600/url.jpg") ;	
+	-fx-background-repeat: no-repeat;
+	-fx-background-size: 270, 600;
+	-fx-background-size: 270, 270;
+	-fx-background-position: top right, bottom right;
+	-fx-background-color: teal;
+}
+
+
+.label-heading
+{
+	-fx-text-alignment: left;
+	-fx-font-size: 32pt;
+	-fx-font-style: italic;
+	-fx-font-weight: bold;
+	-fx-text-fill: white;
+	-fx-background-color: black;
+}
+.label-heading2
+{
+	-fx-text-alignment: left;
+	-fx-font-size: 14pt;
+	-fx-font-style: italic;
+	-fx-font-weight: bold;
+	-fx-text-fill: black;
+}
+.button
+{
+	-fx-background-color: magenta;
+	-fx-text-fill: black;
+	-fx-font-weight: bold;
+	-fx-font-family: roman;
+	-fx-min-width: 150px;
+	-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+.list-cell 
+{
+    -fx-control-inner-background: magenta;
+    -fx-text-fill: black;
+}
